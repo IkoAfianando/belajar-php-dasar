@@ -1,12 +1,25 @@
 <?php
 
-$name = "Iko";
-$age = 17;
+//$name = "Iko";
+//$age = 17;
+//
+//echo "Name : ";
+//echo $name;
+//echo "\n";
+//
+//echo "Age : ";
+//echo $age;
+//echo "\n";
 
-echo "Name : ";
-echo $name;
+
+$contoh = "iko";
+$$contoh = "Afianando";
+
+echo "Contoh : ";
+echo $contoh;
 echo "\n";
 
-echo "Age : ";
-echo $age;
+
+echo "iko : ";
+echo $iko;
 echo "\n";
