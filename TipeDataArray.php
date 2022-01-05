@@ -23,7 +23,24 @@ var_dump(count($names)); // menhitung berapa data di dalam array
 $iko = array(
     "id" => "Iko",
     "lastName" => "Afianando",
-    "age" => 10
+    "age" => 10,
+    "address" => [
+        "city" => "jakarta",
+        "country" => "indonesia"
+    ]
 );
 var_dump($iko);
 var_dump($iko["id"]);
+
+$budi = [
+    "id" => "budi",
+    "name" => "budi nugraha",
+    "age" => 20,
+    "address" => array(
+        "city" => "jakarta",
+        "country" => "indonesia"
+    )
+];
+var_dump($budi);
+
+var_dump($budi["address"]["country"]); // memanggil array di dalam array
