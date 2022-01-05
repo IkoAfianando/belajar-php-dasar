@@ -4,10 +4,12 @@ $data = [
     "action" => "Create",
 ];
 
-if(isset($data["action"])) {
-    $action =  $data["action"];
-}else {
-    $action = "Tidak ada data";
-}
+//if(isset($data["action"])) {
+//    $action =  $data["action"];
+//}else {
+//    $action = "Nothing!";
+//}
+
+$action = $data["action"] ?? "Nothing";
 
 echo $action;
